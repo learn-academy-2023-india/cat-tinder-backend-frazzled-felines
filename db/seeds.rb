@@ -1,5 +1,5 @@
 # This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
+# development, test). The code here should be idependent so that it can be executed at any point in every environment.
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 #
 # Example:
@@ -9,21 +9,21 @@
 #   end
 cats = [
   {
-    name: 'Felix',
-    age: 2,
-    enjoys: 'Long naps on the couch, and a warm fire.',
+    name: 'Oscar',
+    age: 5,
+    about: 'Swipe right if youre feline fine and ready to mingle! Im a whisker-twitching aficionado of belly rubs and cardboard boxes, seeking a purr-fect partner for lazy afternoons and midnight zoomies.',
     image: 'https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1036&q=80'
   },
   {
-    name: 'Homer',
-    age: 12,
-    enjoys: 'Food mostly, really just food.',
+    name: 'Garfield',
+    age: 6,
+    about: 'Cat-ch me if you can! Im a sophisticated tabby with a penchant for gourmet treats and adventurous window sill exploration, searching for a companion to share catnip dreams and cozy cuddles.',
     image: 'https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80'
   },
   {
-    name: 'Jack',
-    age: 5,
-    enjoys: 'Furrrrociously hunting bugs.',
+    name: 'Tom',
+    age: 9,
+    about: 'Lets paws and reflect on the possibilities! Im a playful calico with a love for string toys and sunbeams, on the hunt for a fellow feline aficionado to enjoy catnaps and spontaneous feather wand sessions.',
     image: 'https://images.unsplash.com/photo-1492370284958-c20b15c692d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80'
   }
 ]
