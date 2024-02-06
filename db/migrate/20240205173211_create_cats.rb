@@ -3,7 +3,7 @@ class CreateCats < ActiveRecord::Migration[7.1]
     create_table :cats do |t|
       t.string :name
       t.integer :age
-      t.text :enjoys
+      t.text :about
       t.text :image
 
       t.timestamps
