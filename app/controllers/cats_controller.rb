@@ -22,6 +22,6 @@ class CatsController < ApplicationController
     # Handle strong parameters, so we are secure
     private
     def cat_params
-      params.require(:cat).permit(:name, :age, :enjoys, :image)
+      params.require(:cat).permit(:name, :age, :about, :image)
     end
 end
